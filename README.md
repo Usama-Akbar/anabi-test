@@ -14,22 +14,22 @@
 **5.1.5** Delete a User <br>
 
 ### Introduction
-This documentation serves as a guide for backend Express.js and frontend React.js App working on the Users Management project. The project involves creating a RESTful API to perform CRUD operations on managing user accounts.
+This documentation guides backend Express.js and frontend React.js App working on the Users Management project. The project involves creating a RESTful API to perform CRUD operations on managing user accounts.
 
 ### Backend Technologies Used
 The backend of the project is built using the following technologies:
 
-**Node.js** : JavaScript runtime environment
-**Express.js**: Web application framework for Node.js
-**MongoDB**: NoSQL database for storing car and user data
+**Node.js** : JavaScript runtime environment  <br>
+**Express.js**: Web application framework for Node.js  <br>
+**MongoDB**: NoSQL database for storing car and user data  <br>
 
 ### Frontend Technologies Used
 The Frontend of the project is built using the following technologies:
 
-**React.js**: JavaScript frontend Library/Framework
-**State Managment**: Reacct Hooks are used for the state managment
-**Chakra UI**: React UI Library for styled-components
-**API Integration**: Fetch method with async fnction are used for fetchinf APIs
+**React.js**: JavaScript frontend Library/Framework  <br>
+**State Management**: React Hooks are used for the state management  <br>
+**Chakra UI**: React UI Library for styled-components  <br>
+**API Integration**: Fetch method with async functions are used for fetching APIs  <br>
 
 ### Installation and Setup
 To set up the project on your local machine, follow these steps:
