@@ -128,11 +128,11 @@ module.exports = {
         FullName: req.body.FullName,
         updatedAt: new Date(),
       };
-      const id = req.params.id;
+      const userName = req.params.id;
       const result = await client
         .db(process.env.DATA_BASE)
         .collection("users")
-        .updateOne({ _id: new ObjectId(id) }, { $set: user });
+        .updateOne({ userName: userName }, { $set: user });
       if (result.matchedCount === 1) {
         res.json({
           message: "User updated successfully!",

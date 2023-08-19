@@ -9,10 +9,10 @@ function App() {
     <ChakraProvider>
       <div className="App">
         <Routes>
-          <Route path="/" element={<HomePage />}>
-            <Route path="form" element={<FormPage />} />
-            <Route path="result" element={<ResultPage />} />
-          </Route>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/form" exact element={<FormPage />} />
+          <Route path="/form/:id" exact element={<FormPage />} />
+          <Route path="/result" element={<ResultPage />} />
         </Routes>
       </div>
     </ChakraProvider>
